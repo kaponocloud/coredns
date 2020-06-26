@@ -1,0 +1,9 @@
+.:53 {
+    #whoami
+    debug
+    log
+    forward . 1.1.1.1:53
+    rrl . {
+        responses-per-second 1
+    }
+}
