@@ -4,9 +4,18 @@ package plugin
 
 import (
 	// Include all plugins.
+	_ "github.com/coredns/coredns/plugin/cache"
 	_ "github.com/coredns/coredns/plugin/debug"
+	_ "github.com/coredns/coredns/plugin/dnssec"
+	_ "github.com/coredns/coredns/plugin/errors"
+	_ "github.com/coredns/coredns/plugin/file"
 	_ "github.com/coredns/coredns/plugin/forward"
+	_ "github.com/coredns/coredns/plugin/health"
 	_ "github.com/coredns/coredns/plugin/log"
-	_ "github.com/coredns/coredns/plugin/whoami"
-	_ "github.com/coredns/rrl/plugins/rrl"
+	_ "github.com/coredns/coredns/plugin/metadata"
+	_ "github.com/coredns/coredns/plugin/metrics"
+	_ "github.com/coredns/coredns/plugin/pprof"
+	_ "github.com/coredns/coredns/plugin/tls"
+	_ "github.com/coredns/coredns/plugin/trace"
+	_ "github.com/kaponocloud/rrl/plugins/rrl"
 )
