@@ -17,5 +17,6 @@ import (
 	_ "github.com/coredns/coredns/plugin/pprof"
 	_ "github.com/coredns/coredns/plugin/tls"
 	_ "github.com/coredns/coredns/plugin/trace"
+	_ "github.com/kaponocloud/mcproxy/plugins/mcproxy"
 	_ "github.com/kaponocloud/rrl/plugins/rrl"
 )

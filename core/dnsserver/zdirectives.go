@@ -23,5 +23,6 @@ var Directives = []string{
 	"dnssec",
 	"file",
 	"rrl",
+	"mcproxy",
 	"forward",
 }

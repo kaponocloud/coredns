@@ -6,4 +6,7 @@
     rrl . {
         responses-per-second 1
     }
+    mcproxy . {
+        responses-per-second 1
+    }
 }
