@@ -15,7 +15,7 @@ require (
 	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/infobloxopen/go-trees v0.0.0-20190313150506-2af4e13f9062
-	github.com/kaponocloud/mcproxy v0.0.0-20200714002828-e51d271db4d8
+	github.com/kaponocloud/mcproxy v0.0.0-20200718003820-f741a2b9f430
 	github.com/kaponocloud/rrl v0.0.0-20200713235035-73b3ba084469
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/miekg/dns v1.1.30
@@ -27,10 +27,15 @@ require (
 	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200306183522-221f0cc107cb
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-	golang.org/x/sys v0.0.0-20200615200032-f1bc736245b1
+	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
+	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
+	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae
+	golang.org/x/text v0.3.3 // indirect
 	google.golang.org/api v0.29.0
-	google.golang.org/grpc v1.29.1
+	google.golang.org/genproto v0.0.0-20200715011427-11fb19a81f2c // indirect
+	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc/examples v0.0.0-20200716233830-6dc7938fe875 // indirect
+	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.25.0
 	k8s.io/api v0.18.5
 	k8s.io/apimachinery v0.18.5

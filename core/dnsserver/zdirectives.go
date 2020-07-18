@@ -10,19 +10,14 @@ package dnsserver
 // (after) them during a request, but they must not
 // care what plugin above them are doing.
 var Directives = []string{
-	"metadata",
-	"tls",
+	"reload",
 	"debug",
-	"trace",
 	"health",
-	"pprof",
-	"prometheus",
 	"errors",
 	"log",
 	"cache",
-	"dnssec",
-	"file",
-	"rrl",
+	"hosts",
 	"mcproxy",
+	"rrl",
 	"forward",
 }

@@ -1,8 +1,12 @@
-.:53 {
-    #whoami
+.:53 https://.:443 tls://.:853 {
     debug
     log
+    #tls cert.pem key.pem ca.pem
+    #dnssec {
+    #    key file Kexample.org.+013+45330
+    #}
     forward . 1.1.1.1:53
+    health :9110
     rrl . {
         responses-per-second 1
     }
