@@ -6,7 +6,10 @@ require (
 	github.com/Azure/azure-sdk-for-go v40.6.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.2
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.0
-	github.com/aws/aws-sdk-go v1.33.5
+	github.com/DataDog/datadog-go v3.5.0+incompatible // indirect
+	github.com/Shopify/sarama v1.21.0 // indirect
+	github.com/apache/thrift v0.13.0 // indirect
+	github.com/aws/aws-sdk-go v1.33.12
 	github.com/caddyserver/caddy v1.0.5
 	github.com/cenkalti/backoff/v4 v4.0.2
 	github.com/dnstap/golang-dnstap v0.2.0
@@ -24,8 +27,6 @@ require (
 	github.com/prometheus/client_golang v1.7.1
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.10.0
-	github.com/prometheus/prometheus v2.5.0+incompatible
-	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200306183522-221f0cc107cb
 	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
@@ -37,8 +38,8 @@ require (
 	google.golang.org/grpc/examples v0.0.0-20200716233830-6dc7938fe875 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.25.0
-	k8s.io/api v0.18.5
-	k8s.io/apimachinery v0.18.5
-	k8s.io/client-go v0.18.5
+	k8s.io/api v0.18.6
+	k8s.io/apimachinery v0.18.6
+	k8s.io/client-go v0.18.6
 	k8s.io/klog v1.0.0
 )
