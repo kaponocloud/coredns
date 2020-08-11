@@ -18,8 +18,8 @@ require (
 	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/infobloxopen/go-trees v0.0.0-20190313150506-2af4e13f9062
-	github.com/kaponocloud/mcproxy v0.0.0-20200723194944-713115a8201f
-	github.com/kaponocloud/rrl v0.0.0-20200713235035-73b3ba084469
+	github.com/kaponocloud/mcproxy v0.0.0-20200811195755-78d270460665
+	github.com/kaponocloud/rrl v0.0.0-20200811200427-9bec08482daf
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/miekg/dns v1.1.30
 	github.com/opentracing/opentracing-go v1.2.0

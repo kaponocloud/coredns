@@ -320,10 +320,10 @@ github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1
 github.com/jstemmer/go-junit-report v0.9.1/go.mod h1:Brl9GWCQeLvo8nXZwPNNblvFj/XSXhF0NWZEnDohbsk=
 github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfVYBRgL+9YlvaHOwJU=
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
-github.com/kaponocloud/mcproxy v0.0.0-20200723194944-713115a8201f h1:JWFeuNddEw6TpgxitZZ+x9+xI5sn9D4RjhOTcoJTzKE=
-github.com/kaponocloud/mcproxy v0.0.0-20200723194944-713115a8201f/go.mod h1:i3XMmmZuDwUfgBDKLcUukKyIdL5JINJd45bwePGew1s=
-github.com/kaponocloud/rrl v0.0.0-20200713235035-73b3ba084469 h1:koidHvL/arYEfXu6w9MZR9UPejQL30M8IKXmZGtIbH8=
-github.com/kaponocloud/rrl v0.0.0-20200713235035-73b3ba084469/go.mod h1:oOSLo8uK+LKraWEqVpRwxYdhM9g1eUFDkgNmJQ87oqU=
+github.com/kaponocloud/mcproxy v0.0.0-20200811195755-78d270460665 h1:hpFz8te1NUKUD5c/PIl1JgD4bOC2qm4jXZwNKEhYM0o=
+github.com/kaponocloud/mcproxy v0.0.0-20200811195755-78d270460665/go.mod h1:bLg59HTv7rivV98hqFSFVc8aWbOeb5pQEcBHJDdI7+U=
+github.com/kaponocloud/rrl v0.0.0-20200811200427-9bec08482daf h1:T/ejMbiSJouUePJSN4+kAH6NUSQlW7t2vyClWAU5cUU=
+github.com/kaponocloud/rrl v0.0.0-20200811200427-9bec08482daf/go.mod h1:tBhXVu7gKVvMtYNHXwitEHLbf83NW0Iylj3/UjtANU0=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
