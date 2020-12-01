@@ -322,8 +322,12 @@ github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfV
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
 github.com/kaponocloud/mcproxy v0.0.0-20200811195755-78d270460665 h1:hpFz8te1NUKUD5c/PIl1JgD4bOC2qm4jXZwNKEhYM0o=
 github.com/kaponocloud/mcproxy v0.0.0-20200811195755-78d270460665/go.mod h1:bLg59HTv7rivV98hqFSFVc8aWbOeb5pQEcBHJDdI7+U=
+github.com/kaponocloud/mcproxy v0.0.0-20200811204026-45608cb8e27a h1:o3giIoF+JlMK/PHPDhyyCxQrOQ0S1KuFNW33fY8LvMA=
+github.com/kaponocloud/mcproxy v0.0.0-20200811204026-45608cb8e27a/go.mod h1:bLg59HTv7rivV98hqFSFVc8aWbOeb5pQEcBHJDdI7+U=
 github.com/kaponocloud/rrl v0.0.0-20200811200427-9bec08482daf h1:T/ejMbiSJouUePJSN4+kAH6NUSQlW7t2vyClWAU5cUU=
 github.com/kaponocloud/rrl v0.0.0-20200811200427-9bec08482daf/go.mod h1:tBhXVu7gKVvMtYNHXwitEHLbf83NW0Iylj3/UjtANU0=
+github.com/kaponocloud/rrl v0.0.0-20200811203919-482bdd33111c h1:xe+JpoTyJaiOUgsn/g+T1cd8RbgiYERO76FUhUgXiEk=
+github.com/kaponocloud/rrl v0.0.0-20200811203919-482bdd33111c/go.mod h1:tBhXVu7gKVvMtYNHXwitEHLbf83NW0Iylj3/UjtANU0=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
