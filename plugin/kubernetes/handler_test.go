@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"testing"
-	"time"
 
 	"github.com/coredns/coredns/plugin/kubernetes/object"
 	"github.com/coredns/coredns/plugin/pkg/dnstest"
@@ -525,7 +524,7 @@ func (APIConnServeTest) Run()                                      {}
 func (APIConnServeTest) Stop() error                               { return nil }
 func (APIConnServeTest) EpIndexReverse(string) []*object.Endpoints { return nil }
 func (APIConnServeTest) SvcIndexReverse(string) []*object.Service  { return nil }
-func (APIConnServeTest) Modified() int64                           { return time.Now().Unix() }
+func (APIConnServeTest) Modified() int64                           { return int64(3) }
 
 func (APIConnServeTest) PodIndex(ip string) []*object.Pod {
 	if ip != "10.240.0.1" {
@@ -644,8 +643,9 @@ var epsIndex = map[string][]*object.Endpoints{
 				},
 			},
 		},
-		Name:      "svc1",
+		Name:      "svc1-slice1",
 		Namespace: "testns",
+		Index:     object.EndpointsKey("svc1", "testns"),
 	}},
 	"svcempty.testns": {{
 		Subsets: []object.EndpointSubset{
@@ -656,8 +656,9 @@ var epsIndex = map[string][]*object.Endpoints{
 				},
 			},
 		},
-		Name:      "svcempty",
+		Name:      "svcempty-slice1",
 		Namespace: "testns",
+		Index:     object.EndpointsKey("svcempty", "testns"),
 	}},
 	"hdls1.testns": {{
 		Subsets: []object.EndpointSubset{
@@ -675,8 +676,9 @@ var epsIndex = map[string][]*object.Endpoints{
 				},
 			},
 		},
-		Name:      "hdls1",
+		Name:      "hdls1-slice1",
 		Namespace: "testns",
+		Index:     object.EndpointsKey("hdls1", "testns"),
 	}},
 	"hdlsprtls.testns": {{
 		Subsets: []object.EndpointSubset{
@@ -687,8 +689,9 @@ var epsIndex = map[string][]*object.Endpoints{
 				Ports: []object.EndpointPort{{Port: -1}},
 			},
 		},
-		Name:      "hdlsprtls",
+		Name:      "hdlsprtls-slice1",
 		Namespace: "testns",
+		Index:     object.EndpointsKey("hdlsprtls", "testns"),
 	}},
 }
 
