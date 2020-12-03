@@ -315,8 +315,8 @@ github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7V
 github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
 github.com/kaponocloud/mcproxy v1.8.0 h1:TfcuST5boORaiz9LRSD3vsUFVP6aINLk4xeuIksoykM=
 github.com/kaponocloud/mcproxy v1.8.0/go.mod h1:fBx9HlAPEHpMGr8eSXxKVR13gO7FnWB5r4PraKn02qI=
-github.com/kaponocloud/rrl v1.8.0 h1:2ieozSYUqm9R7nT1fvWZkkR5/nVvGmHc800jGiJRA0Q=
-github.com/kaponocloud/rrl v1.8.0/go.mod h1:UyUlascwqM7NoEjDHX8XuYXGf5wjf6H2XWR4l80iyME=
+github.com/kaponocloud/rrl v1.8.2 h1:EpyCfOKsufKOm419/E2aRTC89WGk7W1WRLAXYa7tCv4=
+github.com/kaponocloud/rrl v1.8.2/go.mod h1:oWri9g8tL6lLGaOmckbs7U1MeqAXHMVHrnnU5opPXHo=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
