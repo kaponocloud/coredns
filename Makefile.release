@@ -40,6 +40,9 @@
 # * make github-push
 # * make docker-push
 
+# Import environment parameters
+include Env
+
 EMPTY:=
 SPACE:=$(EMPTY) $(EMPTY)
 COMMA:=$(EMPTY),$(EMPTY)
@@ -57,7 +60,7 @@ DOCKER_IMAGE_NAME:=$(NAME)
 # mips is not in LINUX_ARCH because it's not supported by the manifest-tool. #arm arm64 ppc64le s390x
 LINUX_ARCH:=amd64
 PLATFORMS:=$(subst $(SPACE),$(COMMA),$(foreach arch,$(LINUX_ARCH),linux/$(arch)))
-ECR_REPO=823640481217.dkr.ecr.us-west-2.amazonaws.com/ys
+ECR_REPO=$(ECR_ROOT)/ys
 
 all:
 	@echo Use the 'release' target to build a release, 'docker' for docker build.
@@ -150,7 +153,7 @@ endif
 
 .PHONY: docker-login
 docker-login:
-	eval $$(aws ecr get-login --no-include-email --region us-west-2 --profile=sb)
+	eval $$(aws ecr get-login --no-include-email --region us-west-2 --profile=$(AWS_PROFILE))
 
 .PHONY: docker-push
 docker-push:
